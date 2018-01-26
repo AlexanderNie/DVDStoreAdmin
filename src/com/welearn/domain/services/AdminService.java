@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.welearn;
+package com.welearn.domain.services;
 
 import com.welearn.domain.entities.Actor;
 import com.welearn.forms.DVDStoreAdmin;

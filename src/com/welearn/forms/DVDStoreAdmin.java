@@ -5,7 +5,7 @@
  */
 package com.welearn.forms;
 
-import com.welearn.AdminService;
+import com.welearn.domain.services.AdminService;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -60,13 +60,13 @@ public class DVDStoreAdmin extends javax.swing.JFrame {
 
         resultTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {},
+                {},
+                {},
+                {}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+
             }
         ));
         jScrollPane1.setViewportView(resultTable);
